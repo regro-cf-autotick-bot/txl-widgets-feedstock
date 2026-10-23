@@ -1,14 +1,14 @@
 {% set python_min = "3.10" %}
 {% set name = "txl-widgets" %}
-{% set version = "0.3.6" %}
+{% set version = "0.3.9" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/txl_widgets-{{ version }}.tar.gz
-  sha256: 28746d91c0406b29e8900e66befeb08817aeba2a1db465f820d4920867ea6b60
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/txl_widgets-{{ version }}.tar.gz
+  sha256: 47388fdf22fc52f8f7550b65c25b7d9167f3e32b95d9984b1b53892fe30b841a
 
 build:
   noarch: python
